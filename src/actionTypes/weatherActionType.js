@@ -1,0 +1,6 @@
+const WeatherActionTypes = {
+    GET_WEATHER_FORECAST_SUCCESS: 'GET_WEATHER_FORECAST_SUCCESS',
+    GET_WEATHER_FORECAST_FAILURE: 'GET_WEATHER_FORECAST_FAILURE'
+};
+
+export default WeatherActionTypes;

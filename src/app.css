@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.current {
+  border-bottom: 4px solid white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* 
+.table tr {
+  height: 30px;
+}
+
+.table td {
+  height: auto !important;
+} */
+
+.table th span, .table td span {
+  padding: 0px !important;
+}
+
+.map {
+  height: 500px;
+}
